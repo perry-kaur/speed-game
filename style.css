@@ -1,0 +1,51 @@
+body {
+  min-height: 100vw;
+  background-image: linear-gradient(yellow, white);
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px
+}
+
+p {
+  text-align: center;
+}
+
+div#circle-container {
+  padding-left: 280px;
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  display: inline-block;
+  margin: 15px;
+}
+
+.active {
+  background-color: blue;
+}
+
+#Start {
+  margin-left: 580px;
+}
+
+#gameResult {
+  height: 150px;
+  width: 250px;
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  z-index: 100;
+  box-shadow: 3px 3px 5px grey;
+  text-align: center;
+  font-size: 20px;
+  visibility: hidden;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="script.js"> </script>
+  <title> Speed game</title>
+  <h1> Speedgame </h1>
+</head>
+
+<body>
+  <p id="scoreCard"> Your score </p>
+
+  <div id="circle-container">
+    <span onclick="updateScore(this)" class="circle"></span>
+    <span onclick="updateScore(this)" class="circle"></span>
+    <span onclick="updateScore(this)" class="circle"></span>
+    <span onclick="updateScore(this)" class="circle"></span>
+  </div>
+
+  <button onclick="startGame()" id="Start"> Start game </button>
+  <button onclick="stopGame()" id="Stop"> Stop game </button>
+
+  <div id="gameResult">
+    <p> Ups, game over! </p>
+    <p id="finalScore"> Your final score was </p>
+  </div>
+
+</body>
+
+</html>
